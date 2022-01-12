@@ -1,0 +1,24 @@
+div {
+  border: 1px solid gray;
+  margin: 5px;
+}
+
+#third > p {
+  display: block;
+}
+
+h1 {
+  display: block;
+}
+
+#second * {
+  visibility: visible;
+}
+
+#second img {
+  visibility: visible;
+}
+
+#first p {
+  font-size: 1.25em;
+}
