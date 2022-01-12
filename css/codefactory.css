@@ -35,3 +35,14 @@ ul {
 figcaption {
     text-align: center;
 }
+
+.cover {
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
