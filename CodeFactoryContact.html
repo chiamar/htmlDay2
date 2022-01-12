@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="5,https://codefactory.wien/de/contact-de">
+    <!-- <meta http-equiv="refresh" content="5,https://codefactory.wien/de/contact-de"> -->
     <link rel="stylesheet" href="css/codefactory.css">
     <title>CodeFactory | Contact</title>
+    <style>
+      textarea {
+        margin: 5px;
+        display: block;
+      }
+    </style>
 </head>
 
 <body>
@@ -28,7 +34,33 @@
 
     <main>
         <h1>Contact</h1>
-        <table></table>
+        <form>
+        <table>
+          <tr>
+            <td>Vorname: (*)</td>
+            <td><input type="text" placeholder="Vorname"></td>
+          </tr>
+          <tr>
+            <td>Nachname: (*)</td>
+            <td><input type="text" placeholder="Nachname"></td>
+          </tr>
+          <tr>
+            <td>E-Mail: (*)</td>
+            <td><input type="text" placeholder="john.doe@mail.com"></td>
+          </tr>
+          <tr>
+            <td>Telefon: (*)</td>
+            <td><input type="text"></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox">Bitte um Rückruf</td>
+          </tr>
+        </table>
+        Ihre Nachricht: 
+        <textarea rows="10" cols="33"></textarea> 
+        <input type="checkbox"> Diese Daten werden nicht an Dritte weitergegeben. Mit dem Absenden dieses Formulars akzeptieren Sie, dass Ihre Nachricht zur weiteren Verarbeitung an das interne Mail-Delivery-System von CodeFactory gesendet wird. 
+        </form>
+        
     </main>
 
     <footer>
