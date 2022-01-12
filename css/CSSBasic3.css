@@ -1,0 +1,27 @@
+body {
+  background-color: lavender;
+  margin: 25px;
+}
+
+div {
+  margin-bottom:25px;
+}
+
+#caption {
+  font-weight: bold;
+  font-style: normal;
+}
+
+#authors {
+  font-style: italic;
+}
+
+#summary {
+  font-style: italic;
+  font-weight: bold;
+  /* background-color: lightblue; */
+}
+
+#article {
+  line-height: 1.25em;
+}
