@@ -1,0 +1,9 @@
+.paper {
+    width: 100%;
+    border: lightgreen solid 2px;
+    border-radius: 5px;
+}
+
+.paper:hover {
+    opacity: 0.5;
+}
